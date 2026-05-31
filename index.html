@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VocalLabs.ai - GTM & Product Audit</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .slide { scroll-snap-align: start; }
+    .carousel { scroll-snap-type: x mandatory; }
+    .dot { transition: all 0.3s ease; }
+    .dot-active { background-color: #3b82f6; transform: scale(1.2); }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- Navigation -->
+  <nav class="fixed top-0 w-full bg-white shadow-sm z-50">
+    <div class="max-w-7xl mx-auto px-8 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-semibold text-blue-600">VocalLabs.ai</h1>
+      <p class="text-sm text-gray-500">GTM & Product Strategy Audit</p>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="carousel" class="carousel flex overflow-x-auto h-screen snap-x snap-mandatory scroll-smooth pt-16">
+    
+    <!-- Slide 1: Title -->
+    <div class="slide min-w-full h-full flex items-center justify-center bg-gradient-to-br from-blue-50 to-white px-8">
+      <div class="max-w-3xl text-center">
+        <h1 class="text-5xl font-bold mb-6">VocalLabs.ai</h1>
+        <h2 class="text-3xl font-semibold text-gray-700 mb-8">GTM & Product Strategy Audit</h2>
+        <p class="text-xl text-gray-600">Key Issues & Strategic Recommendations</p>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="slide min-w-full h-full flex items-center justify-center bg-white px-8">
+      <div class="max-w-6xl w-full flex items-center gap-10">
+        <div class="flex-1">
+          <h2 class="text-4xl font-bold mb-6 text-blue-600">01. Weak ICP Segmentation</h2>
+          <div class="space-y-4 text-lg">
+            <p><strong>Insight:</strong> VocalLabs positions itself as a Voice AI infrastructure platform but lacks clear ICP segmentation.</p>
+            <p><strong>Problem:</strong> No clear separation between developers and business users.</p>
+            <p><strong>Impact:</strong> Confusion, weak GTM positioning, and lower conversions.</p>
+            <div class="pt-4">
+              <p class="font-semibold text-green-600">Recommendation:</p>
+              <p>Create separate journeys for Developers and Businesses with tailored messaging.</p>
+            </div>
+            <p><strong>Strategic Direction:</strong> Position as the <span class="italic">"AWS of Voice AI"</span> — combining infrastructure + business applications.</p>
+          </div>
+        </div>
+        <div class="flex-1 overflow-y-auto space-y-4 max-h-[70vh]">
+          <div>
+            <p class="text-xs text-gray-400 uppercase tracking-wide mb-1">Competitor product screenshot</p>
+            <img src="retell-header.png" alt="Retell header" class="w-full object-contain rounded-xl shadow-lg" />
+          </div>
+          <img src="homePage.png" alt="VocalLabs homepage" class="w-full object-contain rounded-xl shadow-lg" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="slide min-w-full h-full flex items-center justify-center bg-white px-8">
+      <div class="max-w-6xl w-full flex items-center gap-10">
+        <div class="flex-1">
+          <h2 class="text-4xl font-bold mb-6 text-blue-600">02. No Product Exposure</h2>
+          <div class="space-y-4 text-lg">
+            <p><strong>Insight:</strong> Users cannot experience the product due to lack of demo, sandbox, or trial.</p>
+            <p><strong>Problem:</strong> Voice AI is highly experiential and cannot be understood via static pages.</p>
+            <p><strong>Impact:</strong> Low trust, poor activation, and competitor advantage.</p>
+            <div class="pt-4">
+              <p class="font-semibold text-green-600">Recommendation:</p>
+              <p>Introduce interactive demo, sandbox environment, and free credits.</p>
+            </div>
+            <p><strong>Strategic Direction:</strong> Optimize for the fastest "time to first AI call experience".</p>
+          </div>
+        </div>
+        <div class="flex-1 overflow-y-auto space-y-4 max-h-[70vh]">
+          <div>
+            <p class="text-xs text-gray-400 uppercase tracking-wide mb-1">Competitor product screenshot</p>
+            <img src="vapi-dashboard.png" alt="Vapi dashboard" class="w-full object-contain rounded-xl shadow-lg" />
+          </div>
+          <div>
+            <p class="text-xs text-gray-400 uppercase tracking-wide mb-1">Competitor product screenshot</p>
+            <img src="vapi-agent.png" alt="Vapi agent" class="w-full object-contain rounded-xl shadow-lg" />
+          </div>
+          <div>
+            <p class="text-xs text-gray-400 uppercase tracking-wide mb-1">Competitor product screenshot</p>
+            <img src="vapi-sandbox.png" alt="Vapi sandbox" class="w-full object-contain rounded-xl shadow-lg" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 4 -->
+    <div class="slide min-w-full h-full flex items-center justify-center bg-white px-8">
+      <div class="max-w-6xl w-full flex items-center gap-10">
+        <div class="flex-1">
+          <h2 class="text-4xl font-bold mb-8 text-blue-600">03. Missing Pricing Transparency</h2>
+          <div class="space-y-6 text-lg">
+            <p><strong>Insight:</strong> No pricing page or cost clarity is available.</p>
+            <p><strong>Problem:</strong> Users cannot estimate usage cost or scalability.</p>
+            <p><strong>Impact:</strong> Slower decision-making and reduced inbound conversions.</p>
+            <div class="pt-6">
+              <p class="font-semibold text-green-600">Recommendation:</p>
+              <p>Introduce usage-based pricing (per minute/API) with tiered plans.</p>
+            </div>
+            <p class="pt-4"><strong>Strategic Direction:</strong> Align with AWS/Twilio-style transparent pricing models.</p>
+          </div>
+        </div>
+        <div class="flex-1 flex flex-col items-center justify-center gap-2">
+          <p class="text-xs text-gray-400 uppercase tracking-wide">Competitor product screenshot</p>
+          <img src="retell-pricing.png" alt="Retell pricing page" class="w-full max-h-[70vh] object-contain rounded-xl shadow-lg" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 5 -->
+    <div class="slide min-w-full h-full flex items-center justify-center bg-white px-8">
+      <div class="max-w-6xl w-full flex items-center gap-10">
+        <div class="flex-1">
+          <h2 class="text-4xl font-bold mb-6 text-blue-600">04. Poor Onboarding Experience</h2>
+          <div class="space-y-4 text-lg">
+            <p><strong>Insight:</strong> Onboarding flow is broken with input issues, OTP failures, and API errors.</p>
+            <p><strong>Problem:</strong> Product promise (high performance) does not match initial experience.</p>
+            <p><strong>Impact:</strong> Immediate drop-offs and loss of credibility.</p>
+            <div class="pt-4">
+              <p class="font-semibold text-green-600">Recommendation:</p>
+              <p>Fix authentication, input UX, error handling, and mobile stability.</p>
+            </div>
+            <p><strong>Strategic Direction:</strong> Reduce time to first successful workflow or API call.</p>
+          </div>
+        </div>
+        <div class="flex-1 flex flex-col gap-3">
+          <div class="flex gap-3 flex-1">
+            <div class="flex-1 flex items-center justify-center">
+              <img src="mobileVerifyEmailError.jpeg" alt="Mobile email verification error" class="max-h-[40vh] w-auto object-contain rounded-xl shadow-lg" />
+            </div>
+            <div class="flex-1 flex items-center justify-center">
+              <img src="mobileAPIError.jpeg" alt="Mobile API error" class="max-h-[40vh] w-auto object-contain rounded-xl shadow-lg" />
+            </div>
+          </div>
+          <div class="flex items-center justify-center">
+            <img src="desktop-verify-email-error.png" alt="Email verification error on desktop" class="w-full max-h-[35vh] object-contain rounded-xl shadow-lg" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 6 -->
+    <div class="slide min-w-full h-full flex items-center justify-center bg-white px-8">
+      <div class="max-w-6xl w-full flex items-center gap-10">
+        <div class="flex-1">
+          <h2 class="text-4xl font-bold mb-8 text-blue-600">05. Weak Content Strategy</h2>
+          <div class="space-y-6 text-lg">
+            <p><strong>Insight:</strong> Lack of FAQs, use cases, and technical education.</p>
+            <p><strong>Problem:</strong> Users do not understand product depth or applications.</p>
+            <p><strong>Impact:</strong> Low trust, high dependency on demos, poor SEO.</p>
+            <div class="pt-6">
+              <p class="font-semibold text-green-600">Recommendation:</p>
+              <p>Build use-case library, technical explainers, and FAQs.</p>
+            </div>
+            <p class="pt-4"><strong>Strategic Direction:</strong> Position as a thought leader in Voice AI.</p>
+          </div>
+        </div>
+        <div class="flex-1 flex flex-col items-center justify-center gap-2">
+          <p class="text-xs text-gray-400 uppercase tracking-wide">Competitor product screenshot</p>
+          <img src="faq.png" alt="FAQ section" class="w-full max-h-[70vh] object-contain rounded-xl shadow-lg" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 7: Additional Observations -->
+    <div class="slide min-w-full h-full flex items-center justify-center bg-white px-8">
+      <div class="max-w-3xl">
+        <h2 class="text-4xl font-bold mb-8 text-blue-600">Additional Observations & Opportunity</h2>
+        <div class="space-y-8 text-lg">
+          <div>
+            <p class="font-semibold">Strong Infrastructure Capability:</p>
+            <p>VocalLabs offers strong backend capabilities such as low latency, global telephony, and bring-your-own-model support.</p>
+          </div>
+          <div>
+            <p class="font-semibold text-green-600">Big Opportunity:</p>
+            <p>These capabilities can be positioned as key differentiators through better messaging and visual storytelling.</p>
+          </div>
+          <div class="pt-6 border-t">
+            <p class="text-sm text-gray-500 italic">Note: This analysis is based on available public information and competitor benchmarking.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Dots Navigation -->
+  <div class="fixed bottom-8 left-1/2 transform -translate-x-1/2 flex gap-3 z-50">
+    <button onclick="goToSlide(0)" class="dot dot-active w-3 h-3 bg-blue-600 rounded-full"></button>
+    <button onclick="goToSlide(1)" class="dot w-3 h-3 bg-gray-300 hover:bg-gray-400 rounded-full"></button>
+    <button onclick="goToSlide(2)" class="dot w-3 h-3 bg-gray-300 hover:bg-gray-400 rounded-full"></button>
+    <button onclick="goToSlide(3)" class="dot w-3 h-3 bg-gray-300 hover:bg-gray-400 rounded-full"></button>
+    <button onclick="goToSlide(4)" class="dot w-3 h-3 bg-gray-300 hover:bg-gray-400 rounded-full"></button>
+    <button onclick="goToSlide(5)" class="dot w-3 h-3 bg-gray-300 hover:bg-gray-400 rounded-full"></button>
+    <button onclick="goToSlide(6)" class="dot w-3 h-3 bg-gray-300 hover:bg-gray-400 rounded-full"></button>
+  </div>
+
+  <script>
+    const carousel = document.getElementById('carousel');
+    const dots = document.querySelectorAll('.dot');
+
+    function goToSlide(index) {
+      carousel.scrollTo({
+        left: carousel.clientWidth * index,
+        behavior: 'smooth'
+      });
+      updateDots(index);
+    }
+
+    function updateDots(activeIndex) {
+      dots.forEach((dot, i) => {
+        dot.classList.toggle('dot-active', i === activeIndex);
+        dot.classList.toggle('bg-gray-300', i !== activeIndex);
+      });
+    }
+
+    // Auto update dots on scroll
+    carousel.addEventListener('scroll', () => {
+      const scrollPosition = carousel.scrollLeft;
+      const slideWidth = carousel.clientWidth;
+      const currentIndex = Math.round(scrollPosition / slideWidth);
+      updateDots(currentIndex);
+    });
+  </script>
+</body>
+</html>
